@@ -11,6 +11,8 @@ This was made using Python 3.11.3, Langchain for using OpenAI's language model, 
 It works by first analyzing your documents and converting them to raw text.
 Then the raw text is broken down into chunks of length 1000 with an overlap of 200 characters in this case. The chunks are then stored in a local vector DB in the form of embeddings. The embeddings are later fed into Langchain's OpenAI language model to process and return the required result.
 
-![Source](https://scontent.cdninstagram.com/v/t51.2885-15/381862990_293973903366336_6085095540263788887_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDEzMzcuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=100&_nc_ohc=uB2weU6fOXsAX9fizWf&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzE5ODkzNzc3Njk2NzY4OTQwMA%3D%3D.2-ccb7-5&oh=00_AfDPeDrCI8-epGmEo3vF3vkY9cQKHyUP-HzI28RA9sykUA&oe=656DDFBB&_nc_sid=10d13b)
+<hr/>
 
 ![Source](https://scontent.cdninstagram.com/v/t51.2885-15/381862990_293973903366336_6085095540263788887_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDEzMzcuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=100&_nc_ohc=uB2weU6fOXsAX9fizWf&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzE5ODkzNzc3Njk2NzY4OTQwMA%3D%3D.2-ccb7-5&oh=00_AfDPeDrCI8-epGmEo3vF3vkY9cQKHyUP-HzI28RA9sykUA&oe=656DDFBB&_nc_sid=10d13b)
+<br />
+![Source](https://scontent.cdninstagram.com/v/t51.2885-15/382058868_863761558205312_2400204260491555433_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDEzMzcuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=kdtVPK223b8AX-cu-8N&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzE5ODkzNzc3NzE2MDY2MzgxMQ%3D%3D.2-ccb7-5&oh=00_AfBdDOfxZa0KJpT1Tuvxe8e20cYI82MSEZhS56d-ezVpNw&oe=656EA078&_nc_sid=10d13b)
